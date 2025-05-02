@@ -1,0 +1,36 @@
+title : QuickSeat
+
+project : theatre Reservation App 
+
+target audience: theatreOwner/Manager
+
+type: B2B
+timeline : 2weeks
+total members : 5
+
+features:
+add movies
+remove movies
+authentication
+search movies by actorName /genrename/ moviename/language
+movie details
+payment details
+booking tickets
+ordering snacks
+guidance for the needy people(emergency)
+accounts maintaining
+how many days the film is in the theatre
+
+
+Register page 
+authentication for admin/user
+add movies with details
+add user
+seaching movies based on genre/actorname / moviename/language
+booking tickets with snacks
+payment page
+manage seats/count seats
+guidance page including emergency situation 
+feedback / complaint page
+days count
+accounts page
