@@ -33,3 +33,30 @@ username ;
 pwd;
 emailid;
 string dob;
+
+library
+libraryId int;
+name;
+librarian;
+int totalnumberOfBooks;
+location/address;
+contactdetail;
+wifi password;
+emailId;
+openingtime; long
+closingTime; long
+
+
+class storageStructure{
+
+}
+
+class Book{
+ id;
+ title;
+ noOfcopies byte;
+ availableCount byte;
+ author;
+ yearOfPublish;
+ genre;
+}
