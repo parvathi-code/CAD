@@ -1,0 +1,20 @@
+title : trainJourney
+ project : train ticket booking System
+target audience : Railways
+type : B2B
+timeline 2 weeks
+
+Register page
+authentication  
+add trains for all routes 
+add train detais with the coaches number of seats
+add user
+user authentication
+searching trains based on routes/ train number/ train name 
+booking tickets according to the type of seats/coaches
+payment page
+order foods
+hotel booking
+cancel ticket/managing waitlisted tickets
+manage seats availability 
+maintain the emergency help
