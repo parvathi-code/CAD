@@ -6,7 +6,7 @@ timeline : 2 weeks
 total Members:
 
 features
-register page
+register page for librarian
 authentication 
 maintain the storage system
 add books with detais and genre
@@ -18,3 +18,18 @@ maintain the credit system
 maintain the return dates
 the book availability
 feedback page
+
+data model
+login class{
+ string username;
+ string pwd;}
+
+registerinfo class{
+ string firstname;
+ string lastname;
+ long/string mobileNo;
+ gender ;
+username ;
+pwd;
+emailid;
+string dob;
