@@ -1,36 +1,43 @@
-title : QuickSeat
+Title: EduSphere
+Target Audience: Academic Administrators / Faculty
+Type: B2B
+Features
+Register Page
+For admins/staff to register and access the system securely.
 
-project : theatre Reservation App 
+Authentication Login
+Role-based login for faculty, admin staff, etc.
 
-target audience: theatreOwner/Manager
+Institution Details Management
+Manage details like department info, courses offered, academic sessions, etc.
 
-type: B2B
-timeline : 2weeks
-total members : 5
+Student Admission Management
+Add new students, assign roll numbers, and link them to courses and departments.
 
-features:
-add movies
-remove movies
-authentication
-search movies by actorName /genrename/ moviename/language
-movie details
-payment details
-booking tickets
-ordering snacks
-guidance for the needy people(emergency)
-accounts maintaining
-how many days the film is in the theatre
+Course & Subject Management
+Add, update, and delete course structures and subjects offered per semester.
 
+Student Profile Management Page
+Maintain full student profiles including contact info, course enrolled, and academic status.
 
-Register page 
-authentication for admin/user
-add movies with details
-add user
-seaching movies based on genre/actorname / moviename/language
-booking tickets with snacks
-payment page
-manage seats/count seats
-guidance page including emergency situation 
-feedback / complaint page
-days count
-accounts page
+Attendance Tracking
+Mark and review attendance on a daily/monthly/semester basis.
+
+Marks & Grade Management
+Store internal marks, semester scores, and calculate GPA/grades.
+
+Search and Filter Students
+Search students by name, department, ID, or academic performance filters.
+
+Student Details Page
+Display detailed profile with attendance, marks, and course info.
+
+Fee Management and Payment Tracking
+Add fee structure, record payments, and show due balances or receipts.
+
+Certificate Request Handling
+Track student requests for certificates like Bonafide, TC, Marksheet, etc.
+
+Report Generation
+Generate attendance reports, mark sheets, and progress cards.
+
