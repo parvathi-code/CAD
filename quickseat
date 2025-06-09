@@ -41,3 +41,121 @@ Track student requests for certificates like Bonafide, TC, Marksheet, etc.
 Report Generation
 Generate attendance reports, mark sheets, and progress cards.
 
+data model
+
+login class
+class Login {
+    String username;
+    String password;
+    String role; // e.g., "Admin", "Faculty", "Staff"
+}
+
+registerinfo
+class RegisterInfo {
+    String firstName;
+    String lastName;
+    String gender;
+    String username;
+    String password;
+    String emailId;
+    String dob; // Date of birth in string or Date format
+    String mobileNo;
+}
+
+institution class
+class Institution {
+    int institutionId;
+    String name;
+    String address;
+    String contactEmail;
+    String contactPhone;
+    List<Department> departments;
+}
+
+department class
+class Department {
+    int deptId;
+    String deptName;
+    List<Course> courses;
+}
+
+course class
+class Course {
+    int courseId;
+    String courseName;
+    int durationInYears;
+    List<Subject> subjects;
+}
+
+subject class
+class Subject {
+    int subjectId;
+    String subjectName;
+    int semester;
+    String type; // "Theory", "Lab", etc.
+    int credits;
+}
+
+student class
+class Student {
+    int studentId;
+    String name;
+    String gender;
+    String dob;
+    String contactNumber;
+    String email;
+    Department department;
+    Course course;
+    int yearOfAdmission;
+    List<Attendance> attendanceRecords;
+    List<Marks> marksRecords;
+    FeeDetails feeDetails;
+}
+
+attendance class
+class Attendance {
+    int attendanceId;
+    Subject subject;
+    int totalClasses;
+    int attendedClasses;
+    String semester;
+}
+
+marks class
+class Marks {
+    int marksId;
+    Subject subject;
+    int internalMarks;
+    int externalMarks;
+    float gradePoint;
+}
+
+feedetails class
+class FeeDetails {
+    int feeId;
+    double totalFee;
+    double paidAmount;
+    double dueAmount;
+    String lastPaymentDate;
+}
+
+certificaterequestclass
+class CertificateRequest {
+    int requestId;
+    Student student;
+    String certificateType; // Bonafide, TC, Marksheet
+    String requestDate;
+    String status; // Pending, Approved, Rejected
+}
+
+report class
+class Report {
+    int reportId;
+    Student student;
+    String reportType; // Attendance, Marksheet, ProgressCard
+    String generatedDate;
+    String filePath; // Optional if saved as PDF
+}
+
+
+
