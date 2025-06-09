@@ -21,42 +21,79 @@ feedback page
 
 data model
 login class{
- string username;
- string pwd;}
-
-registerinfo class{
- string firstname;
- string lastname;
- long/string mobileNo;
- gender ;
-username ;
-pwd;
-emailid;
-string dob;
-
-library
-libraryId int;
-name;
-librarian;
-int totalnumberOfBooks;
-location/address;
-contactdetail;
-wifi password;
-emailId;
-openingtime; long
-closingTime; long
+String username;
+String password;
 
 
-class storageStructure{
+register info
 
-}
+String firstName;
+String lastName;
+String mobileNo;
+String gender;
+String username;
+String password;
+String emailId;
+String dob;
 
-class Book{
- id;
- title;
- noOfcopies byte;
- availableCount byte;
- author;
- yearOfPublish;
- genre;
-}
+library 
+
+int libraryId;
+String name;
+String librarian;
+int totalNumberOfBooks;
+String location;
+String contactDetails;
+String wifiPassword;
+String emailId;
+long openingTime;
+long closingTime;
+
+storagestructure
+int shelfNumber;
+String section;
+int capacity;
+int usedSpace;
+
+book
+int id;
+String title;
+byte noOfCopies;
+byte availableCount;
+String author;
+int yearOfPublish;
+String genre;
+
+library user
+int userId;
+String name;
+String emailId;
+String contactNumber;
+String address;
+String dob;
+List<Borrow> borrowHistory;
+
+borrow
+int borrowId;
+int userId;
+int bookId;
+LocalDate borrowDate;
+LocalDate dueDate;
+boolean isReturned;
+
+return feedback
+int returnId;
+int borrowId;
+LocalDate returnDate;
+String feedback;
+boolean damaged;
+
+fine payment
+int fineId;
+int userId;
+double amount;
+LocalDate dueDate;
+boolean isPaid;
+LocalDate paidDate;
+String paymentMethod;
+
